@@ -25,11 +25,6 @@ while(True):
     cv2.imshow("Facetrack",frame)
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
-    
-
-# if faceinside == True:
-#     playsound('test.mp3')
-
 
 cap.release()
 cv2.destroyAllWindows()
