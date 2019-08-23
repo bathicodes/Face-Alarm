@@ -16,7 +16,6 @@ while(True):
     if len(facecount) > 3:
         faceinside = True
         if faceinside == True:
-            cv2.imwrite("test.jpg",faceinside)
             playsound('w.mp3')
 
     for(x,y,w,h) in facecount:
